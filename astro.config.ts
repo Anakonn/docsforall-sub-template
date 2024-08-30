@@ -45,8 +45,18 @@ export default defineConfig({
 			components: {
 				SiteTitle: "./src/components/starlight/SiteTitle.astro",
 				Header: "./src/components/starlight/Header.astro",
+				Head: "./src/components/starlight/Head.astro",
 			},
-			sidebar: [],
+			sidebar: [
+				{
+					label: "Guides",
+					autogenerate: { directory: "guides" },
+				},
+				{
+					label: "Reference",
+					autogenerate: { directory: "reference" },
+				},
+			],
 		}),
 	],
 });
