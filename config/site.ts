@@ -1,5 +1,5 @@
 export const siteConfig = {
-	title: 'DocsForAll-Sub Template',
+	title: 'Sub Template',
 	url: 'https://docsforall.com/',
 	base: '/sub-template',
 	googleAdsSrc:
