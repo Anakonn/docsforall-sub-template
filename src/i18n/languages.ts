@@ -1,6 +1,6 @@
 export const allLanguages = {
-	ko: '한국어',
 	en: 'English',
+	ko: '한국어',
 	// es: 'Español',
 	// hi: 'हिन्दी',
 	// 'pt-br': 'Português do Brasil',
@@ -24,8 +24,8 @@ export const allLanguages = {
 
 // Build for two languages only to speed up Astro's smoke tests
 const twoLanguages = {
-	ko: '한국어',
 	en: 'English',
+	ko: '한국어',
 };
 
 export default import.meta.env?.PUBLIC_TWO_LANGUAGES ? twoLanguages : allLanguages;
